@@ -15,7 +15,7 @@ namespace StructureInCSharp
 
             Console.WriteLine(employee.Id);
             Console.WriteLine(employee.FirstName);
-            Console.Write(employee.LastName);
+            Console.WriteLine(employee.LastName);
             Console.WriteLine(employee.Designation);
         }
     }
