@@ -5,11 +5,13 @@ namespace StructureInCSharp
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            employee.FirstName = "Jalpesh";
-            employee.LastName = "Vadgama";
-            employee.Designation = "Project Manager";
-            employee.Id = 1;
+            Employee employee = new Employee 
+            {
+                Id=1,
+                FirstName="Jalpesh",
+                LastName="Vadgama",
+                Designation="Project Manager",
+            };
 
             Console.WriteLine(employee.Id);
             Console.WriteLine(employee.FirstName);
