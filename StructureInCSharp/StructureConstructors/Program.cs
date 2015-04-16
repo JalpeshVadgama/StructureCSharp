@@ -16,15 +16,15 @@ namespace StructureConstructors
 
     public struct Customer
     {
-        public Customer(int customerId, string firstName,string lastName)
+        public Customer(int customerId, string firstName, string lastName)
         {
-            this.CustomerId = customerId;
-            this.FirstName = firstName;
-            this.LastName = lastName;
+            CustomerId = customerId;
+            FirstName = firstName;
+            LastName = lastName;
         }
-
-        public int CustomerId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        
+        public int CustomerId;
+        public string FirstName;
+        public string LastName;
     }
 }
