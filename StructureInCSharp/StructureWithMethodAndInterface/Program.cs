@@ -5,7 +5,7 @@ namespace StructureWithMethodAndInterface
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee
+            IPrintable employee = new Employee
             {
                 EmployeeId=1,
                 FirstName="Jalpesh",
