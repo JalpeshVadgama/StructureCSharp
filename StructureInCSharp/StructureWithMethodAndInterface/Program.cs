@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StructureWithMethodAndInterface
 {
@@ -10,7 +7,14 @@ namespace StructureWithMethodAndInterface
     {
         static void Main(string[] args)
         {
-            
+            Employee employee = new Employee
+            {
+                EmployeeId=1,
+                FirstName="Jalpesh",
+                LastName="Vadgama"
+            };
+
+            employee.Print();
         }
     }
 }
