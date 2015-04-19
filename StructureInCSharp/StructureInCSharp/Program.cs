@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace StructureInCSharp
 {
     class Program
@@ -19,13 +20,5 @@ namespace StructureInCSharp
             Console.WriteLine(employee.Designation);
             
         }
-    }
-
-    struct Employee
-    {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Designation { get; set; }
     }
 }
