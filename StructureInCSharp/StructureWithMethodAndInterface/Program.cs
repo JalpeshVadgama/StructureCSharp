@@ -10,6 +10,7 @@ namespace StructureWithMethodAndInterface
     {
         static void Main(string[] args)
         {
+            
         }
     }
 }
