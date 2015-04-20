@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace StructureWithMethodAndInterface
 {
     interface IPrintable
